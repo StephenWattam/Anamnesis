@@ -1,0 +1,10 @@
+Anamnesis
+---------
+This system was designed to manage memory by handling pointers to all allocated
+memory in queues.  These queues may then be freed (and passed around) to ensure
+that no memory leaks occur.
+
+There are many systems which do this, many by overriding malloc.  This was
+originally written for use in some coursework and as such had to be original, if
+not novel.  It works well enough, and offers a large amount of control compared
+to a malloc re-implementation.
